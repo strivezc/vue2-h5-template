@@ -1,0 +1,40 @@
+.van-cell{
+    padding-left: 0;
+}
+
+.dialogAlert{
+    width: 522px;
+    border-radius: 16px;
+}
+.dialogAlert .van-dialog__header{
+    font-size: 40px;
+    font-weight: 500;
+    color: #303133;
+    line-height: 47px;
+    padding-top: 35px;
+}
+
+.dialogAlert .van-dialog__message--has-title {
+    padding-top: 25px;
+    padding-bottom: 47px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 40px;
+}
+.dialogAlert .van-dialog__footer {
+    border-top: 1px solid #DDDDDD;
+}
+.dialogAlert .van-dialog__confirm {
+    font-size: 32px;
+    font-weight: 400;
+    color: #0084FF;
+    line-height: 38px;
+}
+.resultAlert .van-dialog__message--has-title {
+    line-height: 50px;
+    padding: 26px 15px;
+}
+.resultAlert .van-dialog__header {
+    font-weight: bold;
+}

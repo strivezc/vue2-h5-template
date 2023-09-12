@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  //overflow-x: hidden;
+  height: 100%;
+  font-size: 14px;
+  color: #333;
+  -webkit-text-size-adjust: none;
+  zoom: 1;
+  width: 100%;
+  -webkit-appearance: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.gray {
+  color: #999999;
+}
+
+.blue {
+  color: #1989FA;
+}
+
+.red {
+  color: #F56C6C;
+}
+
+.green {
+  color: #16BB5A;
+}
+
+.yellow {
+  color: #F7C863;
+}
+
+.orange {
+  color: #E6A23C;
+}
+.l_red{
+  color: #FF5725
+}
+.l_blue{
+  color: #0098FF
+}
+.l_yellow{
+  color: #FFB414
+}
+.l_green{
+  color: #00C297
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.y_w { // 按钮的样式(bg:#F7C863;color:#fff)
+  width: 100%;
+  background: #F7C863 !important;
+  color: #ffffff !important;
+  border: none !important;
+  &:hover {
+    background: rgba(247,200,99,0.8) !important;
+  }
+  &:visited,&:active,&:focus{
+    background: rgba(247,200,99,0.8) !important;
+  }
+}
+.b_w{
+  width: 100%;
+  background: #164977 !important;
+  color: #ffffff !important;
+  border: none !important;
+  &:hover {
+    background: rgba(22,73,119,0.8) !important;
+  }
+  &:visited,&:active,&:focus{
+    background: rgba(22,73,119,0.8) !important;
+  }
+}
+.tipIcon{
+  width: 4px;
+  height: 4px;
+  background: #FF5725;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: -2px;
+  z-index: 10;
+ }
+ .el-pagination{ // 分页组件居中
+   text-align: center;
+   margin-top: 20px;
+ }
+ .recrod_all {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.h_title{
+  margin: 20px 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.dao{
+  display: inline-table;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.input482{
+  width: 482px;
+}
+.input217{
+  width: 217px
+}
+.el-divider--horizontal {
+  margin: 0px 0px;
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active{
+  background: #003465;
+}
+.drawBtn{ // 提现按钮
+  color: #0098FF;
+  padding: 5px 7px;
+  float: right;
+}
+//叉的创建
+.fork {
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  background: #909399;
+  line-height: 0;
+  font-size: 0;
+  vertical-align: middle;
+  transform: rotate(45deg);
+}
+
+.fork:after {
+  content: '/';
+  display: block;
+  width: 20px;
+  height: 3px;
+  background: #909399;
+  transform: rotate(-90deg);
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1335922 */
+  src: url('//at.alicdn.com/t/font_1335922_s7teo324q09.eot');
+  src: url('//at.alicdn.com/t/font_1335922_s7teo324q09.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1335922_s7teo324q09.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1335922_s7teo324q09.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1335922_s7teo324q09.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1335922_s7teo324q09.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 1rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_location:before {
+  content: "\e89a";
+  color: #0087E1;
+}
+
+.icon_vipshare:before {
+  content: "\e89d";
+  color: #FF5725;
+  font-size: 1rem;
+}
+
+.icon_share:before {
+  content: "\e89e";
+}
+
+.icon_right:before {
+  content: "\e8a1";
+}
+
+.icon_aboutus:before {
+  content: "\e8a2";
+  color: #0087FF;
+}
+
+.icon_kefu:before {
+  content: "\e8a3";
+  color: #8A8EFF;
+}
+
+.icon_help:before {
+  content: "\e8a4";
+  color: #15C9BD;
+}
+
+.icon_men:before {
+  content: "\e8a5";
+}
+
+.icon_account:before {
+  content: "\e8a6";
+}
+
+.icon_password:before {
+  content: "\e8a7";
+}
+
+.icon_right2:before {
+  content: "\e8a1";
+  color: #fff;
+}
+
+.icon_search:before {
+  content: "\e8c8";
+  color: #C0C4CC;
+}
+
+.icon_close:before {
+  content: "\e8c9";
+}
+
+.iconshouye:before {
+  content: "\e731";
+  color: #329DD0;
+}
+
+.iconfenxiang1:before {
+  content: "\e740";
+  color: #FF7846;
+}
+
+.icondianpu:before {
+  content: "\e767";
+  color: #FF4572;
+}
+
+.iconjifen:before {
+  content: "\e768";
+  color: #FFB414;
+}
+
+.zhaoshang:before {
+  content: "\e920";
+  color: #FF6D6B;
+}
+
+.shezhi:before {
+  content: "\e68c";
+  color: #A5A7BA;
+}
+
+.iconyouhui:before {
+  content: "\e930";
+  color: #55C31A;
+}
+
+.icon_tuihuotuikuan:before{
+  content: "\e933";
+}
+
+.icon_tuikuan:before{
+  content: "\e932";
+}
+
+.icon_lianxikefu:before{
+  content: "\e931";
+}
+
+.icon_xiala:before{
+  content: "\e600";
+}
+
+.centerSP{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.centerCZ{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+.centerSPCZ{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.back{
+  width: 0.6rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1rem;
+}
+.mt-20{
+  margin-top: 0.667rem;
+}
+.ellipsis{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}

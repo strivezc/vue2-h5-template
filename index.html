@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <title>说客英语</title>
+<!--  <script type="text/javascript" src="/h5/static/js/jweixin-1.6.0.js"></script>-->
+
+  <script>
+  function initSize() {
+    const clientWidth = document.documentElement.clientWidth;
+    const fontSize = clientWidth > 560 ? '54px' : '13.33333333vw';
+    document.getElementsByTagName("html")[0].setAttribute("style", "font-size:" + fontSize);
+  }
+
+  initSize();
+  window.onresize = initSize;
+  </script>
+
+</head>
+<body>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>
